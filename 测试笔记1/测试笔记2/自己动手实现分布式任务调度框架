@@ -728,4 +728,4 @@ public class ContextRefreshedListener implements ApplicationListener&lt;ContextR
 
 
     }
-}</pre></div><p>　　上述代码就完成了spring初始化完成后加载了自己的自定义任务调度的注解，并且也受spring的调度开关@EnableScheduling的控制，实现无缝整合到spring或者springboot中去，达到了我这种的懒人的要求。</p><p>　　好了其实写这个框架差不多就用了5天业余时间，估计会有一些隐藏的坑，不过明显的坑我自己都解决了，开源出来的目的既是为了抛砖引玉，也为了广大屌丝程序员提供一种新的思路，希望对大家有所帮助，同时也希望大家多帮忙找找bug，一起来完善这个东西,大神们请忽略。文笔不好，主要是好久没写作文了，请大家多多担待。详细的流水账式的源码加上长篇大论式的汉语注释尽情查看:https://github.com/rongdi/easy-job</p><p>&nbsp;</p>
+}</pre></div><p>　　上述代码就完成了spring初始化完成后加载了自己的自定义任务调度的注解，并且也受spring的调度开关@EnableScheduling的控制，实现无缝整合到spring或者springboot中去，达到了我这种的懒人的要求。</p><p>　　好了其实写这个框架差不多就用了5天业余时间，估计会有一些隐藏的坑，不过明显的坑我自己都解决了，开源出来的目的既是为了抛砖引玉，也为了广大屌丝程序员提供一种新的思路，希望对大家有所帮助，同时也希望大家多帮忙找找bug，一起来完善这个东西,大神们请忽略。文笔不好，主要是好久没写作文了，请大家多多担待。详细的流水账式的源码加上长篇大论式的汉语注释尽情查看:<a href="https://github.com/rongdi/easy-job" target="_blank">https://github.com/rongdi/easy-job</a></p><p>&nbsp;</p>
